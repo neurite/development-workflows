@@ -6,5 +6,7 @@
 #################################################
 
 git checkout master
+git pull --rebase main master
+git push origin master
 git branch -D dev
 git push origin :dev
